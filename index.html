@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio d'Omer Atici — Développeur Fullstack & Data Engineer passionné par le Big Data, l'Intelligence Artificielle et le Cloud. Recherche stage 2 à 6 mois 2026/2027.">
+    <meta name="keywords" content="Omer Atici, Développeur Fullstack, Data Engineer, Big Data, Intelligence Artificielle, Cloud, Portfolio">
+    <meta name="author" content="Omer Atici">
+    <meta property="og:title" content="Omer Atici — Portfolio 2026">
+    <meta property="og:description" content="Développeur Fullstack & Data Engineer — Big Data & Intelligence Artificielle">
+    <meta property="og:type" content="website">
+    <title>Omer Atici — Portfolio 2026 | Data Engineering & Fullstack</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <!-- Cursor Glow -->
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>OA<span class="logo-bracket">/&gt;</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about" class="nav-link">À propos</a></li>
+                <li><a href="#skills" class="nav-link">Compétences</a></li>
+                <li><a href="#experience" class="nav-link">Expérience</a></li>
+                <li><a href="#projects" class="nav-link">Projets</a></li>
+                <li><a href="#education" class="nav-link">Formation</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <div class="hero-badge animate-fade-up">
+                <span class="badge-dot"></span>
+                Recherche Stage 2 à 6 mois — 2026/2027
+            </div>
+            <h1 class="hero-title animate-fade-up delay-1">
+                <span class="hero-greeting">Bonjour, je suis</span>
+                <span class="hero-name">Omer Atici</span>
+                <span class="hero-role" id="typedRole"></span>
+            </h1>
+            <p class="hero-description animate-fade-up delay-2">
+                Futur expert en <strong>Data Engineering</strong>, <strong>Cloud Architecture</strong> 
+                & <strong>Fullstack Development</strong>. Passionné par la transformation des données 
+                en solutions intelligentes.
+            </p>
+            <div class="hero-cta animate-fade-up delay-3">
+                <a href="#projects" class="btn btn-primary">
+                    <span>Voir mes projets</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#contact" class="btn btn-outline">
+                    <span>Me contacter</span>
+                    <i class="fas fa-paper-plane"></i>
+                </a>
+            </div>
+            <div class="hero-stats animate-fade-up delay-4">
+                <div class="stat">
+                    <span class="stat-number" data-count="3">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">Projets réalisés</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" data-count="2">0</span>
+                    <span class="stat-label">Ans d'expérience</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" data-count="10">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">Technologies</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-visual animate-fade-up delay-2">
+            <div class="hero-image-wrapper">
+                <div class="hero-image-border"></div>
+                <img src="assets/img/profile.png" alt="Omer Atici" class="hero-image">
+                <div class="hero-image-decoration"></div>
+            </div>
+        </div>
+        <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-user"></i> À propos</span>
+                <h2 class="section-title">Qui suis-je ?</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Je souhaite intégrer le cursus de <strong>Mastère (Bac +5)</strong> spécialité 
+                        <strong>Big Data & Intelligence Artificielle</strong>. Après avoir consolidé mes 
+                        compétences techniques en développement Fullstack, je souhaite désormais orienter 
+                        ma spécialisation vers la <strong>Data Analyse</strong>, l'<strong>Intelligence 
+                        Artificielle</strong> et le <strong>Cloud</strong>.
+                    </p>
+                    <p>
+                        J'ai à cœur de m'investir au sein de vos équipes pour y apporter ma 
+                        <strong>polyvalence</strong> et ma <strong>soif d'apprendre</strong> sur ces 
+                        nouveaux enjeux.
+                    </p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Amiens, France — Mobile dans toute la France</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Bachelor Bac+3 — Architecte des SI (En cours)</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-language"></i>
+                            <span>Français, Anglais, Turc, Kurde</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-car"></i>
+                            <span>Permis B</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-interests">
+                    <h3>Centres d'intérêt</h3>
+                    <div class="interest-grid">
+                        <div class="interest-card">
+                            <i class="fas fa-microchip"></i>
+                            <span>Veille Tech</span>
+                            <div class="interest-tags">
+                                <span class="tag">Hacker News</span>
+                                <span class="tag">Medium</span>
+                                <span class="tag">GitHub</span>
+                            </div>
+                        </div>
+                        <div class="interest-card">
+                            <i class="fas fa-film"></i>
+                            <span>Cinéma</span>
+                            <div class="interest-tags">
+                                <span class="tag">Fantastique</span>
+                                <span class="tag">Action</span>
+                                <span class="tag">Horreur</span>
+                            </div>
+                        </div>
+                        <div class="interest-card">
+                            <i class="fas fa-futbol"></i>
+                            <span>Sports</span>
+                            <div class="interest-tags">
+                                <span class="tag">Football</span>
+                                <span class="tag">Boxe</span>
+                                <span class="tag">Randonnée</span>
+                            </div>
+                        </div>
+                        <div class="interest-card">
+                            <i class="fas fa-plane"></i>
+                            <span>Voyages</span>
+                            <div class="interest-tags">
+                                <span class="tag">Malte</span>
+                                <span class="tag">Turquie</span>
+                                <span class="tag">Croatie</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-code"></i> Compétences</span>
+                <h2 class="section-title">Mon Arsenal Technique</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-grid">
+                <!-- Data & IA -->
+                <div class="skill-card" data-category="data">
+                    <div class="skill-card-header">
+                        <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                        <h3>Data & IA</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Big Data</span>
+                        <span class="skill-tag">IA</span>
+                        <span class="skill-tag">MCD/MLD</span>
+                    </div>
+                </div>
+
+                <!-- Cloud & DevOps -->
+                <div class="skill-card" data-category="cloud">
+                    <div class="skill-card-header">
+                        <div class="skill-icon"><i class="fas fa-cloud"></i></div>
+                        <h3>Cloud & DevOps</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Docker Desktop</span>
+                        <span class="skill-tag">CI/CD</span>
+                        <span class="skill-tag">Prometheus</span>
+                        <span class="skill-tag">Grafana</span>
+                    </div>
+                </div>
+
+                <!-- Backend -->
+                <div class="skill-card" data-category="backend">
+                    <div class="skill-card-header">
+                        <div class="skill-icon"><i class="fas fa-server"></i></div>
+                        <h3>Backend</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express</span>
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">Prisma ORM</span>
+                        <span class="skill-tag">API REST</span>
+                    </div>
+                </div>
+
+                <!-- Frontend -->
+                <div class="skill-card" data-category="frontend">
+                    <div class="skill-card-header">
+                        <div class="skill-icon"><i class="fas fa-palette"></i></div>
+                        <h3>Frontend</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Vue.js</span>
+                        <span class="skill-tag">JavaScript ES6+</span>
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                    </div>
+                </div>
+
+                <!-- Bases de données -->
+                <div class="skill-card" data-category="database">
+                    <div class="skill-card-header">
+                        <div class="skill-icon"><i class="fas fa-database"></i></div>
+                        <h3>Bases de données</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">HeidiSQL</span>
+                    </div>
+                </div>
+
+                <!-- Outils -->
+                <div class="skill-card" data-category="tools">
+                    <div class="skill-card-header">
+                        <div class="skill-icon"><i class="fas fa-tools"></i></div>
+                        <h3>Outils & Management</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Fork</span>
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Canva</span>
+                        <span class="skill-tag">Trello</span>
+                        <span class="skill-tag">Teams</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Soft Skills -->
+            <div class="soft-skills">
+                <h3 class="soft-skills-title">Soft Skills</h3>
+                <div class="soft-skills-grid">
+                    <div class="soft-skill">
+                        <i class="fas fa-user-cog"></i>
+                        <span>Autonomie</span>
+                    </div>
+                    <div class="soft-skill">
+                        <i class="fas fa-users"></i>
+                        <span>Esprit d'équipe</span>
+                    </div>
+                    <div class="soft-skill">
+                        <i class="fas fa-bullseye"></i>
+                        <span>Rigueur</span>
+                    </div>
+                    <div class="soft-skill">
+                        <i class="fas fa-sync-alt"></i>
+                        <span>Adaptabilité</span>
+                    </div>
+                    <div class="soft-skill">
+                        <i class="fas fa-lightbulb"></i>
+                        <span>Curiosité technique</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-briefcase"></i> Expérience</span>
+                <h2 class="section-title">Parcours Professionnel</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="timeline">
+                <!-- Experience 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Développeur Web Fullstack</h3>
+                                <span class="timeline-company">
+                                    <i class="fas fa-building"></i> Opium Digital — Paris
+                                </span>
+                            </div>
+                            <span class="timeline-date">Fév. 2024 – Mai 2024</span>
+                        </div>
+                        <span class="timeline-type">Stage</span>
+                        <ul class="timeline-details">
+                            <li>Conception et déploiement d'interfaces utilisateur interactives en JavaScript, fidélité 100% aux maquettes graphiques</li>
+                            <li>Création et maintenance de bases de données SQL/NoSQL et gestion des flux serveurs via API REST</li>
+                            <li>Implémentation systématique de tests unitaires et fonctionnels, réduisant les bugs en production</li>
+                            <li>Collaboration Agile intensive, utilisation de Git et participation aux réunions de suivi</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Experience 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-globe-europe"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Conseiller de Vente</h3>
+                                <span class="timeline-company">
+                                    <i class="fas fa-building"></i> Celio — La Valette, Malte
+                                </span>
+                            </div>
+                            <span class="timeline-date">Mai 2023 – Juin 2023</span>
+                        </div>
+                        <span class="timeline-type erasmus">Stage Erasmus+</span>
+                        <ul class="timeline-details">
+                            <li>Accueil, accompagnement et conseil client en anglais au sein d'une équipe multiculturelle</li>
+                            <li>Gestion des flux de marchandises, encaissement et participation au merchandising visuel</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Experience 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Stagiaire en Agence Immobilière</h3>
+                                <span class="timeline-company">
+                                    <i class="fas fa-building"></i> Stéphane Plaza Immobilier — Persan
+                                </span>
+                            </div>
+                            <span class="timeline-date">2021 & 2022</span>
+                        </div>
+                        <span class="timeline-type">2 × 2 semaines</span>
+                        <ul class="timeline-details">
+                            <li>Accueil physique et téléphonique de la clientèle, accompagnement lors des visites de biens</li>
+                            <li>Aide à la prospection terrain, gestion administrative et mise à jour des annonces</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-rocket"></i> Projets</span>
+                <h2 class="section-title">Projets Phares</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1: CRM -->
+                <div class="project-card featured">
+                    <div class="project-card-glow"></div>
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/mero-60160" target="_blank" class="project-link-icon" title="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">CRM M-Atici</h3>
+                    <p class="project-subtitle">Gestion Commerciale Fullstack</p>
+                    <p class="project-description">
+                        Application full JavaScript end-to-end permettant une gestion fluide des clients, 
+                        devis et factures en temps réel. API REST robuste, génération de PDF dynamique, 
+                        authentification JWT et dashboard interactif.
+                    </p>
+                    <div class="project-features">
+                        <div class="feature"><i class="fas fa-check"></i> Architecture End-to-End</div>
+                        <div class="feature"><i class="fas fa-check"></i> API REST & Zod Validation</div>
+                        <div class="feature"><i class="fas fa-check"></i> Sécurité JWT & RGPD</div>
+                        <div class="feature"><i class="fas fa-check"></i> Dashboard & KPI</div>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Vue.js 3</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">Prisma</span>
+                        <span class="tech-tag">Express</span>
+                    </div>
+                </div>
+
+                <!-- Project 2: Mac-Locker -->
+                <div class="project-card">
+                    <div class="project-card-glow"></div>
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/mero-60160" target="_blank" class="project-link-icon" title="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Mac-Locker</h3>
+                    <p class="project-subtitle">Sécurité à distance iOS/macOS</p>
+                    <p class="project-description">
+                        Système interconnecté entre une application iPhone, un serveur relais et un agent macOS. 
+                        Communication temps réel via WebSockets bidirectionnels pour verrouiller un Mac 
+                        à distance en quelques millisecondes.
+                    </p>
+                    <div class="project-features">
+                        <div class="feature"><i class="fas fa-check"></i> Architecture 3 piliers</div>
+                        <div class="feature"><i class="fas fa-check"></i> WebSockets temps réel</div>
+                        <div class="feature"><i class="fas fa-check"></i> Interface iOS SwiftUI</div>
+                        <div class="feature"><i class="fas fa-check"></i> Infrastructure Docker</div>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">FastAPI</span>
+                        <span class="tech-tag">SwiftUI</span>
+                        <span class="tech-tag">WebSocket</span>
+                        <span class="tech-tag">Docker</span>
+                        <span class="tech-tag">Python</span>
+                    </div>
+                </div>
+
+                <!-- Project 3: Monitoring -->
+                <div class="project-card">
+                    <div class="project-card-glow"></div>
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Monitoring & Alerting</h3>
+                    <p class="project-subtitle">Système de surveillance</p>
+                    <p class="project-description">
+                        Déploiement d'une stack complète de monitoring avec Prometheus, Grafana et 
+                        AlertManager pour assurer une haute disponibilité des services et une 
+                        détection proactive des incidents.
+                    </p>
+                    <div class="project-features">
+                        <div class="feature"><i class="fas fa-check"></i> Métriques temps réel</div>
+                        <div class="feature"><i class="fas fa-check"></i> Dashboards Grafana</div>
+                        <div class="feature"><i class="fas fa-check"></i> Alerting automatisé</div>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Prometheus</span>
+                        <span class="tech-tag">Grafana</span>
+                        <span class="tech-tag">AlertManager</span>
+                        <span class="tech-tag">Docker</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-graduation-cap"></i> Formation</span>
+                <h2 class="section-title">Mon Parcours Académique</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="education-grid">
+                <div class="education-card current">
+                    <div class="education-year">2025 – 2026</div>
+                    <div class="education-badge">En cours</div>
+                    <h3>Bachelor Bac+3</h3>
+                    <p class="education-degree">Architecte des Systèmes d'Information</p>
+                    <p class="education-school"><i class="fas fa-university"></i> École-IT — Amiens</p>
+                </div>
+                <div class="education-card">
+                    <div class="education-year">2024 – 2025</div>
+                    <h3>Administrateur Système et Réseaux</h3>
+                    <p class="education-degree">Réorientation</p>
+                    <p class="education-school"><i class="fas fa-university"></i> ETNA — Ivry-sur-Seine</p>
+                </div>
+                <div class="education-card">
+                    <div class="education-year">2023 – 2024</div>
+                    <h3>Titre Professionnel Bac+2</h3>
+                    <p class="education-degree">Développeur Web & Web Mobile (DWWM)</p>
+                    <p class="education-school"><i class="fas fa-university"></i> SIT — Nogent-sur-Oise</p>
+                </div>
+                <div class="education-card">
+                    <div class="education-year">2021 – 2023</div>
+                    <h3>Bac Pro Vente</h3>
+                    <p class="education-degree">Option B</p>
+                    <p class="education-school"><i class="fas fa-university"></i> Lycée Amyot d'Inville — Senlis</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-envelope"></i> Contact</span>
+                <h2 class="section-title">Travaillons Ensemble</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">
+                    Actuellement à la recherche d'un stage de 2 à 6 mois pour 2026/2027.<br>
+                    N'hésitez pas à me contacter !
+                </p>
+            </div>
+            <div class="contact-grid">
+                <a href="mailto:atc.pro@yahoo.com" class="contact-card" id="contact-email">
+                    <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                    <h3>Email</h3>
+                    <p>atc.pro@yahoo.com</p>
+                </a>
+                <a href="tel:+33766265954" class="contact-card" id="contact-phone">
+                    <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                    <h3>Téléphone</h3>
+                    <p>07 66 26 59 54</p>
+                </a>
+                <a href="https://www.linkedin.com/in/omer-atici" target="_blank" class="contact-card" id="contact-linkedin">
+                    <div class="contact-icon"><i class="fab fa-linkedin-in"></i></div>
+                    <h3>LinkedIn</h3>
+                    <p>Omer Atici</p>
+                </a>
+                <a href="https://github.com/mero-60160" target="_blank" class="contact-card" id="contact-github">
+                    <div class="contact-icon"><i class="fab fa-github"></i></div>
+                    <h3>GitHub</h3>
+                    <p>mero-60160</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-bracket">&lt;</span>OA<span class="logo-bracket">/&gt;</span>
+                </div>
+                <p class="footer-text">
+                    Conçu & développé avec <i class="fas fa-heart" style="color: var(--accent-primary);"></i> par Omer Atici — 2026
+                </p>
+                <div class="footer-links">
+                    <a href="https://www.linkedin.com/in/omer-atici" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/mero-60160" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
