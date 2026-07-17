@@ -483,9 +483,6 @@ img {
     border-radius: var(--radius-xl);
     position: relative;
     z-index: 2;
-    image-rendering: high-quality;
-    transform: translateZ(0);
-    -webkit-backface-visibility: hidden;
 }
 
 .hero-image-border {
